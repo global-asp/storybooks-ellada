@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ιστορίες για την Ελλάδα</title>
+    <description>Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
+</description>
+    <link>https://global-asp.github.io//storybooks-ellada/</link>
+    <atom:link href="https://global-asp.github.io//storybooks-ellada/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 19 Feb 2019 17:56:34 -0800</pubDate>
+    <lastBuildDate>Tue, 19 Feb 2019 17:56:34 -0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
