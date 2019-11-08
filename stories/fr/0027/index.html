@@ -16,13 +16,16 @@
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
 ">
 	<link rel="stylesheet" href="/storybooks-ellada/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-ellada/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/fr/0027/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
 	<script src="/storybooks-ellada/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -85,17 +88,17 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0027/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-ellada/audio/fr/0027/mp3/01.mp3"></audio>
 			<button onclick="switchlang('γαλλ.,ελλην.','ελλην.,γαλλ.,γαλλ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των γαλλικών και ελληνικών">ελλην.</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Vusi Malindi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ανάγνωση"><img class="cover-icon" src="/storybooks-ellada/css/megaphone.svg" alt="Ανάγνωση"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/fr">γαλλικά</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/fr/level2">Επίπεδο 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0027/fr-0027_decision.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Vusi Malindi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Alexandra Danahy</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ανάγνωση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/megaphone.svg" alt="Ανάγνωση"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/fr">γαλλικά</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/fr/level2">Επίπεδο 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-audio" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="/0027/fr-0027_decision.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -103,7 +106,7 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Mon village avait plusieurs problèmes. Nous faisions la file pour aller chercher de l’eau d’un seul robinet.
+	Mon village avait beaucoup de problèmes. Nous faisions la queue pour aller chercher de l’eau d’un seul robinet.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -157,7 +160,7 @@
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Nous avions barré nos maisons tôt à cause des voleurs.
+	Nous barrions nos maisons tôt à cause des voleurs.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -184,7 +187,7 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Plusieurs enfants avaient lâché l’école.
+	Plusieurs enfants avaient abandonné l’école.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -373,7 +376,7 @@
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Les gens se recueillirent sous un grand arbre et écoutèrent.
+	Les gens se rassemblèrent sous un grand arbre et écoutèrent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -454,7 +457,7 @@
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/15.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Une femme dit, «&nbsp;Les femmes peuvent me joindre pour cultiver de la nourriture.&nbsp;»
+	Une femme dit, «&nbsp;Les femmes peuvent me joindre pour faire pousser de la nourriture.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -508,7 +511,7 @@
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/17.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Nous criions tous avec une voix, «&nbsp;Nous devons changer nos vies.&nbsp;» Depuis ce jour, nous avons travaillé ensemble pour résoudre nos problèmes.
+	Nous criions tous d’une seule voix, «&nbsp;Nous devons changer nos vies.&nbsp;» Depuis ce jour, nous avons travaillé ensemble pour résoudre nos problèmes.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -537,7 +540,7 @@
 		<h5>Κείμενο: Ursula Nafula</h5>
 		<h5>Εικονογράφηση: Vusi Malindi</h5>
 		<h5>Μετάφραση: Alexandra Danahy</h5>
-		<h5>Ανάγνωση: Alexandra Danahy</h5>
+		<h5>Ανάγνωση: Monique Bournot-Trites</h5>
 		<h5>Γλώσσα: <a href="/storybooks-ellada/stories/fr">γαλλικά</a></h5>
 		<h5><a href="/storybooks-ellada/stories/fr/level2">Επίπεδο 2</a></h5>
 		<h5>Πηγή: <a href="https://africanstorybook.org/reader.php?id=13304" target="_blank">Decision</a> από το <a href="https://africanstorybook.org/">Βιβλίο Αφρικανών Ιστοριών</a></h5>
@@ -564,6 +567,8 @@
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/fr" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

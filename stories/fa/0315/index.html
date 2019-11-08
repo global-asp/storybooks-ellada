@@ -15,14 +15,17 @@
 	<title>آواز ساکیما - Ιστορίες για την Ελλάδα</title>
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
 ">
-	<link rel="stylesheet" href="/storybooks-ellada/css/spectre-ar.min.css">
+	<link rel="stylesheet" href="/storybooks-ellada/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-ellada/css/gsn-ar.min.css">
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/fa/0315/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
 	<script src="/storybooks-ellada/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -85,17 +88,17 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fa/0315/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-ellada/audio/fa/0315/mp3/01.mp3"></audio>
 			<button onclick="switchlang('περσ.,ελλην.','ελλην.,γαλλ.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Peris Wachuka</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Marzieh Mohammadian Haghighi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ανάγνωση"><img class="cover-icon" src="/storybooks-ellada/css/megaphone.svg" alt="Ανάγνωση"></span> Nasim Peikazadi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/fa">περσικά</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/fa/level3">Επίπεδο 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fa/0315/fa-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Peris Wachuka</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Marzieh Mohammadian Haghighi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ανάγνωση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/megaphone.svg" alt="Ανάγνωση"></span> Nasim Peikazadi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/fa">περσικά</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/fa/level3">Επίπεδο 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-audio" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="/0315/fa-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -238,7 +241,7 @@
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما گفت، “آنها خودشان فی البداهه می‌آیند. من آنها را در سرم می‌شنوم وبعد می‌خوانم.
+	ساکیما گفت، “آنها خودشان فی البداهه می‌آیند. من آنها را در سرم می‌شنوم وبعد می‌خوانم.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -265,7 +268,8 @@
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما علاقه داشت که برای خواهر کوچکش آواز بخواند، مخصوصا، هروقت خواهرش احساس گرسنگی می‌کرد. در حالیکه او آهنگ مورد علاقه اش را می‌خواند خواهرش به اوگوش می‌داد. او با نوای آرامش بخش آواز سر تکان می‌داد.
+	ساکیما علاقه داشت که برای خواهر کوچکش آواز بخواند، مخصوصا، هروقت خواهرش ا
+حساس گرسنگی می‌کرد. در حالیکه او آهنگ مورد علاقه اش را می‌خواند خواهرش به اوگوش می‌داد. او با نوای آرامش بخش آواز سر تکان می‌داد.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -292,7 +296,7 @@
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	خواهرش مرتب تکرار می‌کرد، “ساکیما می‌توانی دوباره و دوباره برایم آواز بخوانی؟”ساکیما قبول می‌کرد و دوباره و دوباره آوازها را می‌خواند.
+	خواهرش مرتب تکرار می‌کرد، “ساکیما می‌توانی دوباره و دوباره برایم آواز بخوانی؟” ساکیما قبول می‌کرد و دوباره و دوباره آوازها را می‌خواند.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -346,7 +350,7 @@
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما پرسید، “چه اتفاقی افتاده، مادر، پدر؟”ساکیما متوجه شد که پسر مرد ثروتمند گم شده بود. مرد ثروتمند خیلی ناراحت بود واحساس تنهایی می‌کرد.
+	ساکیما پرسید، “چه اتفاقی افتاده، مادر، پدر؟” ساکیما متوجه شد که پسر مرد ثروتمند گم شده بود. مرد ثروتمند خیلی ناراحت بود واحساس تنهایی می‌کرد.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -373,7 +377,7 @@
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما به پدر ومادرش گفت، “من می‌توانم برای او آواز بخوانم. اوممکن است دوباره شاد شود. ولی پدر ومادرش با او مخالفت کردند.” او خیلی ثروتمند است. تو یک پسر نابینا هستی. تو فکر می‌کنی آواز خواندن تو به او کمکی می‌کند؟”
+	ساکیما به پدر ومادرش گفت، “من می‌توانم برای او آواز بخوانم. اوممکن است دوباره شاد شود.” ولی پدر ومادرش با او مخالفت کردند. “او خیلی ثروتمند است. تو یک پسر نابینا هستی. تو فکر می‌کنی آواز خواندن تو به او کمکی می‌کند؟”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -400,7 +404,7 @@
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	اما، ساکیما تسلیم نشد. خواهر کوچکش هم او را حمایت کرد. او گفت، “وقتی که من گرسنه هستم ترانه های ساکیما من را آرام می‌کند. آنها مرد ثروتمند را هم آرام می‌کنند.
+	اما، ساکیما تسلیم نشد. خواهر کوچکش هم او را حمایت کرد. او گفت، “وقتی که من گرسنه هستم ترانه های ساکیما من را آرام می‌کند. آنها مرد ثروتمند را هم آرام می‌کنند.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -508,7 +512,7 @@
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/17.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما آواز خواندنش را تمام کرد و رویش را برگرداند که برود. ولی مرد ثروتمند با سرعت به طرفش آمد و گفت، “لطفا دوباره آواز بخوان.
+	ساکیما آواز خواندنش را تمام کرد و رویش را برگرداند که برود. ولی مرد ثروتمند با سرعت به طرفش آمد و گفت، “لطفا دوباره آواز بخوان.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -615,6 +619,8 @@
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/fa" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

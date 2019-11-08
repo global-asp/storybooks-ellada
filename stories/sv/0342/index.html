@@ -16,13 +16,16 @@
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
 ">
 	<link rel="stylesheet" href="/storybooks-ellada/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-ellada/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/sv/0342/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
 	<script src="/storybooks-ellada/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -84,17 +87,16 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Adelheid Marie Bwire</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Melany Pietersen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Erika Braas</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/sv">σουηδικά</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/sv/level2">Επίπεδο 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/sv/0342/sv-0342_punishment.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Adelheid Marie Bwire</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Melany Pietersen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Erika Braas</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/sv">σουηδικά</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/sv/level2">Επίπεδο 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <span class="cover_msg">Ήχος ιστορίας ακόμη δεν είναι διαθέσιμος.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -115,8 +117,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -129,9 +130,9 @@
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”När kan vi få lite frukt?” frågar vi.
+	“När kan vi få lite frukt?” frågar vi.
 
-”Vi ska äta frukten ikväll”, säger mamma.
+“Vi ska äta frukten ikväll”, säger mamma.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -144,8 +145,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -171,8 +171,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -185,7 +184,7 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”Titta vad Rahim har gjort!” ropar min lillebror. ”Rahim är olydig och självisk”, säger jag.
+	“Titta vad Rahim har gjort!” ropar min lillebror. “Rahim är olydig och självisk”, säger jag.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -198,8 +197,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -225,8 +223,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -252,8 +249,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -266,7 +262,7 @@
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”Ska du inte straffa Rahim?” frågar lillebror.
+	“Ska du inte straffa Rahim?” frågar lillebror.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -279,8 +275,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -293,7 +288,7 @@
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”Rahim, du kommer snart ångra dig”, varnar mamma.
+	“Rahim, du kommer snart ångra dig”, varnar mamma.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -306,8 +301,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -333,8 +327,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -347,7 +340,7 @@
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”Jag har så ont i magen”, viskar Rahim.
+	“Jag har så ont i magen”, viskar Rahim.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -360,8 +353,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -387,8 +379,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -401,7 +392,7 @@
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Senare ber Rahim oss om ursäkt. ”Jag ska aldrig vara så girig igen”, lovar han. Vi tror alla på honom.
+	Senare ber Rahim oss om ursäkt. “Jag ska aldrig vara så girig igen”, lovar han. Vi tror alla på honom.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -414,8 +405,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/sv/0342/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('σουηδ.,ελλην.','ελλην.,γαλλ.,σουηδ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των σουηδικών και ελληνικών">ελλην.</button>
@@ -456,6 +446,8 @@
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/sv" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

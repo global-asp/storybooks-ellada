@@ -16,13 +16,16 @@
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
 ">
 	<link rel="stylesheet" href="/storybooks-ellada/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-ellada/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/ro/0006/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
 	<script src="/storybooks-ellada/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -84,17 +87,16 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ghanaian folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Carmen Onuorah</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/ro">ρουμανικά</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/ro/level3">Επίπεδο 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ro/0006/ro-0006_anansi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ghanaian folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Μετάφραση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/global.svg" alt="Μετάφραση"></span> Carmen Onuorah</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/ro">ρουμανικά</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/ro/level3">Επίπεδο 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <span class="cover_msg">Ήχος ιστορίας ακόμη δεν είναι διαθέσιμος.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -115,8 +117,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -142,8 +143,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -156,7 +156,7 @@
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0006/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Lacomul de Anansi se gândea, ” Voi ține vasul în siguranță în vârful unui copac înalt. Atunci va fi numai pentru mine!” A tors o sfoară lungă , a înfășurat-o în jurul vasului din lut, și l-a legat la brâul său. A început să se cațere în copac. Dar era greu să se cațere în copac cu vasul lovindu-l mereu în genunchi.
+	Lacomul de Anansi se gândea, “Voi ține vasul în siguranță în vârful unui copac înalt. Atunci va fi numai pentru mine!” A tors o sfoară lungă, a înfășurat-o în jurul vasului din lut, și l-a legat la brâul său. A început să se cațere în copac. Dar era greu să se cațere în copac cu vasul lovindu-l mereu în genunchi.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -169,8 +169,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -183,7 +182,7 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0006/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Tot timpul , fiul cel mic al lui Anansi stătea privind la poalele copacului. “Nu ar fi mai ușor să te cațeri dacă ti-ai lega vasul la spate, în loc?” a spus el. Anansi a incercat să lege vasul de lut cu înțelepciune la spate, și întradevăr, era mult mai ușor.
+	Tot timpul, fiul cel mic al lui Anansi stătea privind la poalele copacului. “Nu ar fi mai ușor să te cațeri dacă ti-ai lega vasul la spate, în loc?” a spus el. Anansi a incercat să lege vasul de lut cu înțelepciune la spate, și întradevăr, era mult mai ușor.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -196,8 +195,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -224,8 +222,7 @@ Anansi era așa de furios din cauza asta că a aruncat vasul de lut din vârful 
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -251,8 +248,7 @@ Anansi era așa de furios din cauza asta că a aruncat vasul de lut din vârful 
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/ro/0006/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ρουμαν.,ελλην.','ελλην.,γαλλ.,ρουμαν.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των ρουμανικών και ελληνικών">ελλην.</button>
@@ -278,6 +274,7 @@ Anansi era așa de furios din cauza asta că a aruncat vasul de lut din vârful 
 		<h5>Διαβάστε περισσότερες ιστορίες στο <a href="/storybooks-ellada/stories/ro/level3">επίπεδο 3</a>:</h5>
 			<label class="chip"><a href="/storybooks-ellada/stories/ro/0066/">Nozibele și cele trei fire de păr</a></label>
 			<label class="chip"><a href="/storybooks-ellada/stories/ro/0141/">Puiul și Miriapodul</a></label>
+			<label class="chip"><a href="/storybooks-ellada/stories/ro/0201/">Copilul măgar</a></label>
 			<label class="chip"><a href="/storybooks-ellada/stories/ro/0315/">Cântecul lui Sakima</a></label>
 			<label class="chip"><a href="/storybooks-ellada/stories/ro/0324/">Ziua în care am plecat de acasă la oraș</a></label>
 			<label class="chip"><a href="/storybooks-ellada/stories/ro/0158/">Găina și Vulturul</a></label>
@@ -288,6 +285,8 @@ Anansi era așa de furios din cauza asta că a aruncat vasul de lut din vârful 
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/ro" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
