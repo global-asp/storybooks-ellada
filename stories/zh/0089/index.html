@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-ellada/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-ellada/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-ellada/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-ellada/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-ellada/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-ellada/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-ellada/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-ellada/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-ellada/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-ellada/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-ellada/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-ellada/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>和植物聊天的卡莱 - Ιστορίες για την Ελλάδα</title>
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/zh/0089/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
-	<script src="/storybooks-ellada/js/sbc.js"></script>
+	<script src="/storybooks-ellada/js/sbc.min.js"></script>
 </head>
 
 
@@ -49,7 +49,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div> 
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -83,13 +83,14 @@
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">和植物聊天的卡莱</span>
 			<span class="l1">Η Καλάη μιλάει στα φυτά</span>
-			<span class="l2">Khalai parle aux plantes</span>
+			<span class="l2"></span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/01.mp3"></audio>
-			<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+			<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Jesse Pietersen</h3>
@@ -98,9 +99,11 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/zh">κινέζικα</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/zh/level2">Επίπεδο 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-audio" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0089/zh-0089_khalai.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ταχύτητα αναπαραγωγής"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/speedometer.svg" alt="Ταχύτητα αναπαραγωγής" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Ταχύτητα αναπαραγωγής: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-ellada/css/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
 <div id="text02" class="columns">
@@ -112,18 +115,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Αυτή είναι η Καλάη. Είναι εφτά χρονών. Το όνομα της σημαίνει «η καλή» στην γλώσσα της, Μπουκούσου.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Αυτή είναι η Καλάη. Είναι εφτά χρονών. Το όνομα της σημαίνει «η καλή» στην γλώσσα της, Μπουκούσου.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/02.mp3"></audio>
+		<audio id="audio02" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -139,18 +141,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Η Καλάη ξυπνάει και μιλάει στην πορτοκαλιά. «Σε παρακαλώ πορτοκαλιά, μεγάλωνε και δώσε μας πολλά ώριμα πορτοκάλια».
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Η Καλάη ξυπνάει και μιλάει στην πορτοκαλιά. «Σε παρακαλώ πορτοκαλιά, μεγάλωνε και δώσε μας πολλά ώριμα πορτοκάλια».
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/03.mp3"></audio>
+		<audio id="audio03" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -166,18 +167,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Η Καλάη περπατάει προς το σχολείο. Στο δρόμο μιλάει στο γρασίδι. «Σε παρακαλώ γρασίδι, γίνε πιο πράσινο και μην ξεραίνεσαι».
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Η Καλάη περπατάει προς το σχολείο. Στο δρόμο μιλάει στο γρασίδι. «Σε παρακαλώ γρασίδι, γίνε πιο πράσινο και μην ξεραίνεσαι».
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/04.mp3"></audio>
+		<audio id="audio04" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -193,18 +193,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Η Καλάη περνάει άγρια λουλούδια. «Σας παρακαλώ λουλούδια, συνεχίστε να ανθίζετε έτσι εγώ μπορώ να σας βάλω στα μαλλιά μου».
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Η Καλάη περνάει άγρια λουλούδια. «Σας παρακαλώ λουλούδια, συνεχίστε να ανθίζετε έτσι εγώ μπορώ να σας βάλω στα μαλλιά μου».
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/05.mp3"></audio>
+		<audio id="audio05" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -220,18 +219,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Στο σχολείο, η Καλάη μιλάει στο δέντρο στη μέση του προαύλιου. «Σε παρακαλώ δέντρο, βγάλε μεγάλα κλαδιά έτσι εμείς να μπορούμε να διαβάζουμε κάτω από την σκιά σου».
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Στο σχολείο, η Καλάη μιλάει στο δέντρο στη μέση του προαύλιου. «Σε παρακαλώ δέντρο, βγάλε μεγάλα κλαδιά έτσι εμείς να μπορούμε να διαβάζουμε κάτω από την σκιά σου».
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/06.mp3"></audio>
+		<audio id="audio06" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -247,18 +245,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Η Καλάη μιλάει στο φράχτη γύρω από το σχολείο της. «Σε παρακαλώ γίνε πιο δυνατός και σταμάτα τους κακούς ανθρώπους να μπαίνουν μέσα».
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Η Καλάη μιλάει στο φράχτη γύρω από το σχολείο της. «Σε παρακαλώ γίνε πιο δυνατός και σταμάτα τους κακούς ανθρώπους να μπαίνουν μέσα».
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/07.mp3"></audio>
+		<audio id="audio07" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -274,18 +271,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Όταν η Καλάη επιστρέφει σπίτι από το σχολείο, αυτή επισκέπτεται την πορτοκαλιά. «έχουν ωριμάσει τα πορτοκάλια ακόμα;» ρωτάει η Καλάη.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Όταν η Καλάη επιστρέφει σπίτι από το σχολείο, αυτή επισκέπτεται την πορτοκαλιά. «έχουν ωριμάσει τα πορτοκάλια ακόμα;» ρωτάει η Καλάη.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/08.mp3"></audio>
+		<audio id="audio08" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -301,18 +297,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	«Τα πορτοκάλια είναι ακόμα πράσινα» αναστενάζει η Καλάη. «Εγώ θα σε δω αύριο πορτοκαλιά» λέει η Καλάη. «Ίσως τότε θα έχεις ένα ώριμο πορτοκάλι για εμένα!»
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	«Τα πορτοκάλια είναι ακόμα πράσινα» αναστενάζει η Καλάη. «Εγώ θα σε δω αύριο πορτοκαλιά» λέει η Καλάη. «Ίσως τότε θα έχεις ένα ώριμο πορτοκάλι για εμένα!»
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/09.mp3"></audio>
+		<audio id="audio09" src="https://globalstorybooks.net/media/audio/zh/0089/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,γαλλ.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('κινέζ.,ελλην.','ελλην.,κινέζ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των κινέζικων και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -321,15 +316,15 @@
 
 <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Κείμενο: Ursula Nafula</h5>
-		<h5>Εικονογράφηση: Jesse Pietersen</h5>
-		<h5>Μετάφραση: Vicky Liu</h5>
-		<h5>Ανάγνωση: Zhuo Sun</h5>
-		<h5>Γλώσσα: <a href="/storybooks-ellada/stories/zh">κινέζικα</a></h5>
-		<h5><a href="/storybooks-ellada/stories/zh/level2">Επίπεδο 2</a></h5>
-		<h5>Πηγή: <a href="https://africanstorybook.org/reader.php?id=13545" target="_blank">Khalai talks to plants</a> από το <a href="https://africanstorybook.org/">Βιβλίο Αφρικανών Ιστοριών</a></h5>
+		<h5><span class="colophon-heading">Κείμενο:</span> Ursula Nafula</h5>
+		<h5><span class="colophon-heading">Εικονογράφηση:</span> Jesse Pietersen</h5>
+		<h5><span class="colophon-heading">Μετάφραση:</span> Vicky Liu</h5>
+		<h5><span class="colophon-heading">Ανάγνωση:</span> Zhuo Sun</h5>
+		<h5><span class="colophon-heading">Γλώσσα:</span> <a href="/storybooks-ellada/stories/zh">κινέζικα</a></h5>
+		<h5><span class="colophon-heading">Επίπεδο:</span> <a href="/storybooks-ellada/stories/zh/level2">Επίπεδο 2</a></h5>
+		<h5><span class="colophon-heading">Πηγή:</span> <a href="https://africanstorybook.org/reader.php?id=13545" target="_blank">Khalai talks to plants</a> από το <a href="https://africanstorybook.org/">Βιβλίο Αφρικανών Ιστοριών</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Αυτό το εργασία χορηγείται με άδεια <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank">Creative Commons Αναφορά Δημιουργού 4.0</a>.</div>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Αυτό το εργασία χορηγείται με άδεια <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank">Creative Commons Αναφορά Δημιουργού 4.0 Μη εισαγόμενο</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -348,7 +343,7 @@
 </div>
 <div>
 <h5>Επιλογές</h5>
-	<a class="btn btn-lg" href="/storybooks-ellada/stories/zh" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
+	<a class="btn btn-lg" href="/storybooks-ellada/stories/zh" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Λήψη PDF</a></span>
 <br><br>
 </div>
 

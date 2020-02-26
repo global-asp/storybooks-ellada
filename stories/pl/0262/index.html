@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-ellada/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-ellada/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-ellada/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-ellada/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-ellada/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-ellada/favicon.ico?v=2">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-ellada/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-ellada/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-ellada/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-ellada/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-ellada/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-ellada/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>Magozwe - Ιστορίες για την Ελλάδα</title>
 	<meta name="description" content="Ιστορίες για την Ελλάδα είναι ένας ελεύθερος ανοιχτός εκπαιδευτικός πόρος που σκοπεύει να προάγει τον αλφαβητισμό και την εκμάθηση γλωσσών στο σπίτι, στο σχολείο, και στην κοινότητα. Προσφέρει 40 ιστορίες από το Βιβλίο Αφρικανών Ιστοριών, με κείμενα και ήχους στα ελληνικά και στις ευρύτερα ομιλούμενες γλώσσες μεταναστών και προσφύγων της Ελλάδας.
@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="/storybooks-ellada/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ellada/stories/pl/0262/">
 	<link rel="alternate" type="application/rss+xml" title="Ιστορίες για την Ελλάδα" href="/storybooks-ellada">
-	<script src="/storybooks-ellada/js/sbc.js"></script>
+	<script src="/storybooks-ellada/js/sbc.min.js"></script>
 </head>
 
 
@@ -49,7 +49,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div> 
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -82,14 +82,15 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0262/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">Magozwe</span>
-			<span class="l1">Μαγκόζουε</span>
-			<span class="l2">Magozwe</span>
+			<span class="l1">Ο Μαγκόζουε</span>
+			<span class="l2"></span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/01.mp3"></audio>
-			<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+			<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Lesley Koyi</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Wiehan de Jager</h3>
@@ -98,9 +99,11 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Γλώσσα"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/language.svg" alt="Γλώσσα"></span> <a href="/storybooks-ellada/stories/pl">πολωνικά</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Επίπεδο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/level.svg" alt="Επίπεδο"></span> <a href="/storybooks-ellada/stories/pl/level5">Επίπεδο 5</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Αφήγηση της ιστορίας"><img class="cover-icon cover-icon-audio" src="/storybooks-ellada/css/speaker.svg" alt="Αφήγηση της ιστορίας"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pl/0262/pl-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ταχύτητα αναπαραγωγής"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/speedometer.svg" alt="Ταχύτητα αναπαραγωγής" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Ταχύτητα αναπαραγωγής: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Αυτόματη αναπαραγωγή της ιστορίας (beta)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-ellada/css/play.svg" alt="Αυτόματη αναπαραγωγή" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
 <div id="text02" class="columns">
@@ -112,18 +115,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Στην πολυσύχναστη πόλη της Ναϊρόμπι, μακριά από κανένα στοργικό σπίτι, ζούσε μια ομάδα άστεγων αγοριών. Ζήσανε τα αγόρια μέρα με τη μέρα. Ένα πρωί, τα αγόρια μάζευαν τα χαλάκια τους μετά τον ύπνο στα κρύα πεζοδρόμια. Για να διώξουν το κρύο αυτοί άναψαν μια φωτιά με σκουπίδια. Μεταξύ της ομάδας των αγοριών ήταν ο Μαγκόζουε. Ήταν αυτός ο πιο νέος.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Στην πολυσύχναστη πόλη της Ναϊρόμπι, μακριά από κανένα στοργικό σπίτι, ζούσε μια ομάδα άστεγων αγοριών. Ζήσανε τα αγόρια μέρα με τη μέρα. Ένα πρωί, τα αγόρια μάζευαν τα χαλάκια τους μετά τον ύπνο στα κρύα πεζοδρόμια. Για να διώξουν το κρύο αυτοί άναψαν μια φωτιά με σκουπίδια. Μεταξύ της ομάδας των αγοριών ήταν ο Μαγκόζουε. Ήταν αυτός ο πιο νέος.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/02.mp3"></audio>
+		<audio id="audio02" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -139,18 +141,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Όταν πέθαναν οι γονείς του Μαγκόζουε, ήταν μόνο πέντε χρονών. Πήγε να ζήσει με τον θείο του. Αυτός ο άντρας δεν φρόντιζε το παιδί. Δεν έδινε στον Μαγκόζουε αρκετά να φάει. Έβαζε το αγόρι να κάνει πολύ σκληρή δουλειά.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Όταν πέθαναν οι γονείς του Μαγκόζουε, ήταν μόνο πέντε χρονών. Πήγε να ζήσει με τον θείο του. Αυτός ο άντρας δεν φρόντιζε το παιδί. Δεν έδινε στον Μαγκόζουε αρκετά να φάει. Έβαζε το αγόρι να κάνει πολύ σκληρή δουλειά.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/03.mp3"></audio>
+		<audio id="audio03" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -166,18 +167,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Αν ο Μαγκόζουε παραπονιόταν ή αμφισβητούσε, ο θείος του τον χτυπούσε. Όταν ο Μαγκόζουε ρώτησε αν μπορούσε να πάει σχολείο, ο θείος του τον χτύπησε και είπε: «Εσύ είσαι πολύ χαζός για να μάθεις οτιδήποτε.» Μετά από τρία χρόνια αυτής της μεταχείρισης ο Μαγκόζουε έφυγε από το θείο του. Άρχισε να ζει στο δρόμο.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Αν ο Μαγκόζουε παραπονιόταν ή αμφισβητούσε, ο θείος του τον χτυπούσε. Όταν ο Μαγκόζουε ρώτησε αν μπορούσε να πάει σχολείο, ο θείος του τον χτύπησε και είπε: «Εσύ είσαι πολύ χαζός για να μάθεις οτιδήποτε.» Μετά από τρία χρόνια αυτής της μεταχείρισης ο Μαγκόζουε έφυγε από το θείο του. Άρχισε να ζει στο δρόμο.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/04.mp3"></audio>
+		<audio id="audio04" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -193,18 +193,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Η ζωή στο δρόμο ήταν δύσκολη και τα περισσότερα από τα αγόρια αγωνίζονταν καθημερινά μόνο για να πάρουν λίγο φαγητό. Μερικές φορές συλλαμβάνονταν, μερικές φορές χτυπιόνταν. Όταν αρρωσταίνουν, δεν υπήρχε κανείς που θα μπορουσα να τους φροντίσει. Η ομάδα συντηρούνταν από τα λίγα χρήματα που έπαιρναν από τη ζητιανιά, και από την πούληση πλαστικών και άλλων ανακυκλώσιμων. Η ζωή ήταν ακόμη πιο δύσκολη εξαιτίας των τσακωμών με αντίπαλες ομάδες που ήθελαν έλεγχο των μερών της πόλης.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Η ζωή στο δρόμο ήταν δύσκολη και τα περισσότερα από τα αγόρια αγωνίζονταν καθημερινά μόνο για να πάρουν λίγο φαγητό. Μερικές φορές συλλαμβάνονταν, μερικές φορές χτυπιόνταν. Όταν αρρωσταίνουν, δεν υπήρχε κανείς που θα μπορουσα να τους φροντίσει. Η ομάδα συντηρούνταν από τα λίγα χρήματα που έπαιρναν από τη ζητιανιά, και από την πούληση πλαστικών και άλλων ανακυκλώσιμων. Η ζωή ήταν ακόμη πιο δύσκολη εξαιτίας των τσακωμών με αντίπαλες ομάδες που ήθελαν έλεγχο των μερών της πόλης.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/05.mp3"></audio>
+		<audio id="audio05" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -220,18 +219,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Μια μέρα ενώ ο Μαγκόζουε έψαχνε μέσα στα σκουπίδια, βρήκε ένα παλιό κουρελιασμένο βιβλίο ιστοριών. Καθάρισε τη βρωμιά από πάνω και το έβαλε στον σάκο του. Κάθε μέρα από τότε θα βγάζει συχνά το βιβλίο και θα κοίταζει τις εικόνες. Δεν ήξερε πώς να διαβάζει τις λέξεις.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Μια μέρα ενώ ο Μαγκόζουε έψαχνε μέσα στα σκουπίδια, βρήκε ένα παλιό κουρελιασμένο βιβλίο ιστοριών. Καθάρισε τη βρωμιά από πάνω και το έβαλε στον σάκο του. Κάθε μέρα από τότε θα βγάζει συχνά το βιβλίο και θα κοίταζει τις εικόνες. Δεν ήξερε πώς να διαβάζει τις λέξεις.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/06.mp3"></audio>
+		<audio id="audio06" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -247,18 +245,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Οι εικόνες έλεγαν την ιστορία ενός αγοριού που μεγάλωσε να γίνει πιλότος. Ο Μαγκόζουε θα ονειρευόταν ότι ήταν πιλότος. Μερικές φορές, φαντάστηκε ότι ήταν το αγόρι της ιστορίας.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Οι εικόνες έλεγαν την ιστορία ενός αγοριού που μεγάλωσε να γίνει πιλότος. Ο Μαγκόζουε θα ονειρευόταν ότι ήταν πιλότος. Μερικές φορές, φαντάστηκε ότι ήταν το αγόρι της ιστορίας.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/07.mp3"></audio>
+		<audio id="audio07" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -274,18 +271,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Ήταν κρύο και ο Μαγκόζουε στεκόταν στο δρόμο ζητιανεύοντας. Ένας άντρας τον πλησίασε. «Γειά, εγώ είμαι ο Τόμας. Δουλεύω εδώ κοντά, σ’ ένα μέρος που μπορείς να πάρεις κάτι να φας» είπε ο άντρας. Έδειξε ένα κίτρινο σπίτι με μπλε σκεπή. «Ελπίζω ότι θα πας εκεί να πάρεις λίγο φαγητό;» ρώτησε. Ο Μαγκόζουε κοίταξε τον άνδρα, και μετά το σπίτι. «Ίσως» είπε, και έφυγε.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Ήταν κρύο και ο Μαγκόζουε στεκόταν στο δρόμο ζητιανεύοντας. Ένας άντρας τον πλησίασε. «Γειά, εγώ είμαι ο Τόμας. Δουλεύω εδώ κοντά, σ’ ένα μέρος που μπορείς να πάρεις κάτι να φας» είπε ο άντρας. Έδειξε ένα κίτρινο σπίτι με μπλε σκεπή. «Ελπίζω ότι θα πας εκεί να πάρεις λίγο φαγητό;» ρώτησε. Ο Μαγκόζουε κοίταξε τον άνδρα, και μετά το σπίτι. «Ίσως» είπε, και έφυγε.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/08.mp3"></audio>
+		<audio id="audio08" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -301,18 +297,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Κατά τους μήνες που ακολούθησαν, τα άστεγα αγόρια συνήθιζαν να βλέπουν τον Τόμας γύρω. Του άρεσε να μιλάει στους ανθρώπους, ειδικά στους ανθρώπους που ζούσαν στους δρόμους. Ο Τόμας άκουγε τις ιστορίες από τις ζωές των ανθρώπων. Ήταν σοβαρός και υπομονετικός, ποτέ αγενής ή ασεβής. Μερικά από τα αγόρια άρχισαν να πηγαίνουν στο κίτρινο και μπλε σπίτι για να πάρουν φαγητό το μεσημέρι.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Κατά τους μήνες που ακολούθησαν, τα άστεγα αγόρια συνήθιζαν να βλέπουν τον Τόμας γύρω. Του άρεσε να μιλάει στους ανθρώπους, ειδικά στους ανθρώπους που ζούσαν στους δρόμους. Ο Τόμας άκουγε τις ιστορίες από τις ζωές των ανθρώπων. Ήταν σοβαρός και υπομονετικός, ποτέ αγενής ή ασεβής. Μερικά από τα αγόρια άρχισαν να πηγαίνουν στο κίτρινο και μπλε σπίτι για να πάρουν φαγητό το μεσημέρι.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/09.mp3"></audio>
+		<audio id="audio09" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -328,18 +323,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Ο Μαγκόζουε καθόταν στο πεζοδρόμιο κοιτάζοντας το βιβλίο με τις εικόνες όταν ο Τόμας κάθισε δίπλα του. «Ποιά είναι η ιστορία;» ρώτησε ο Τόμας. «Είναι για ένα αγόρι που γίνεται πιλότος» απάντησε ο Μαγκόζουε. «Ποιό είναι το όνομα του αγοριού;» ρώτησε ο Τόμας. «Δεν ξέρω, δεν μπορώ να διαβάσω» είπε ο Μαγκόζουε ήσυχα.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Ο Μαγκόζουε καθόταν στο πεζοδρόμιο κοιτάζοντας το βιβλίο με τις εικόνες όταν ο Τόμας κάθισε δίπλα του. «Ποιά είναι η ιστορία;» ρώτησε ο Τόμας. «Είναι για ένα αγόρι που γίνεται πιλότος» απάντησε ο Μαγκόζουε. «Ποιό είναι το όνομα του αγοριού;» ρώτησε ο Τόμας. «Δεν ξέρω, δεν μπορώ να διαβάσω» είπε ο Μαγκόζουε ήσυχα.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/10.mp3"></audio>
+		<audio id="audio10" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/10.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -355,18 +349,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Όταν συναντήθηκαν, ο Μαγκόζουε άρχισε να λέει την δική του ιστορία στον Τόμας. Ήταν η ιστορία του θείου του και γιατί έφυγε από εκει. Ο Τόμας δεν μιλούσε πολύ, και δεν έλεγε στον Μαγκόζουε τι πρέπει να κάνει, όμως άκουγε πάντα προσεκτικά. Μερικές φορές θα μιλούσαν ενώ έτρωγαν στο σπίτι με τη μπλε σκεπή.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Όταν συναντήθηκαν, ο Μαγκόζουε άρχισε να λέει την δική του ιστορία στον Τόμας. Ήταν η ιστορία του θείου του και γιατί έφυγε από εκει. Ο Τόμας δεν μιλούσε πολύ, και δεν έλεγε στον Μαγκόζουε τι πρέπει να κάνει, όμως άκουγε πάντα προσεκτικά. Μερικές φορές θα μιλούσαν ενώ έτρωγαν στο σπίτι με τη μπλε σκεπή.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/11.mp3"></audio>
+		<audio id="audio11" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/11.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -382,18 +375,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Γύρω στα δέκατα γενέθλια του Μαγκόζουε, ο Τόμας του έδωσε ένα βιβλίο με ιστορίες. Ήταν μια ιστορία για ένα αγόρι του χωριού που μεγάλωσε για να γίνει ένας διάσημος ποδοσφαιριστής. Ο Τόμας διάβασε την ιστορία στον Μαγκόζουε πολλές φορές, μέχρι που μια μέρα είπε: «Νομίζω ότι είναι καιρός να πας σχολείο και να μάθεις να διαβάσεις. Τι νομίζεις;» Ο Τόμας εξήγησε ότι ήξερε ένα μέρος που τα παιδιά μπορούν να μένουν, και να πηγαίνουν σχολείο.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Γύρω στα δέκατα γενέθλια του Μαγκόζουε, ο Τόμας του έδωσε ένα βιβλίο με ιστορίες. Ήταν μια ιστορία για ένα αγόρι του χωριού που μεγάλωσε για να γίνει ένας διάσημος ποδοσφαιριστής. Ο Τόμας διάβασε την ιστορία στον Μαγκόζουε πολλές φορές, μέχρι που μια μέρα είπε: «Νομίζω ότι είναι καιρός να πας σχολείο και να μάθεις να διαβάσεις. Τι νομίζεις;» Ο Τόμας εξήγησε ότι ήξερε ένα μέρος που τα παιδιά μπορούν να μένουν, και να πηγαίνουν σχολείο.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/12.mp3"></audio>
+		<audio id="audio12" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/12.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -409,18 +401,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Ο Μαγκόζουε σκέφτηκε για το νέο αυτό μέρος, και για να πάει σχολείο. Τι θα γίνει αν ο θείος του ήταν σωστός και αυτός ήταν πολύ χαζός για να μάθει οτιδήποτε; Κι αν τον χτυπούσαν στο νέο αυτό μέρος; Φοβόταν. «Ίσως είναι καλύτερα να μείνω στο δρόμο» σκέφτηκε.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Ο Μαγκόζουε σκέφτηκε για το νέο αυτό μέρος, και για να πάει σχολείο. Τι θα γίνει αν ο θείος του ήταν σωστός και αυτός ήταν πολύ χαζός για να μάθει οτιδήποτε; Κι αν τον χτυπούσαν στο νέο αυτό μέρος; Φοβόταν. «Ίσως είναι καλύτερα να μείνω στο δρόμο» σκέφτηκε.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/13.mp3"></audio>
+		<audio id="audio13" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/13.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -436,18 +427,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Μοιράστηκε τους φόβους του με τον Τόμας. Με το πέρασμα του χρόνου ο άντρας διαβεβαίωσε το αγόρι ότι η ζωή μπορούσε να είναι καλύτερη στο νέο αυτό μέρος.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Μοιράστηκε τους φόβους του με τον Τόμας. Με το πέρασμα του χρόνου ο άντρας διαβεβαίωσε το αγόρι ότι η ζωή μπορούσε να είναι καλύτερη στο νέο αυτό μέρος.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/14.mp3"></audio>
+		<audio id="audio14" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/14.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -463,18 +453,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Και έτσι ο Μαγκόζουε μπήκε μέσα σ’ ένα δωμάτιο σ’ ένα σπίτι με πράσινη σκεπή. Μοιράστηκε το δωμάτιο με δυο άλλα αγόρια. Όλοι μαζί ήταν δέκα παιδιά που ζούσαν σε εκείνο το σπίτι. Μαζί με τη Θεία Σίσσυ και τον συζυγό της, τρία σκυλιά, μια γάτα, και μια γριά κατσίκα.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Και έτσι ο Μαγκόζουε μπήκε μέσα σ’ ένα δωμάτιο σ’ ένα σπίτι με πράσινη σκεπή. Μοιράστηκε το δωμάτιο με δυο άλλα αγόρια. Όλοι μαζί ήταν δέκα παιδιά που ζούσαν σε εκείνο το σπίτι. Μαζί με τη Θεία Σίσσυ και τον συζυγό της, τρία σκυλιά, μια γάτα, και μια γριά κατσίκα.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/15.mp3"></audio>
+		<audio id="audio15" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/15.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -490,18 +479,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Ο Μαγκόζουε άρχισε το σχολείο, και αυτό ήταν πολύ δύσκολο. Είχε πάρα πολλά να μάθει. Μερικές φορές ήθελε να σταματήσει. Αλλά σκέφτηκε για τον πιλότο και τον ποδοσφαιριστή στο βιβλίο με τις ιστορίες. Σαν αυτούς, δεν σταμάτησε.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Ο Μαγκόζουε άρχισε το σχολείο, και αυτό ήταν πολύ δύσκολο. Είχε πάρα πολλά να μάθει. Μερικές φορές ήθελε να σταματήσει. Αλλά σκέφτηκε για τον πιλότο και τον ποδοσφαιριστή στο βιβλίο με τις ιστορίες. Σαν αυτούς, δεν σταμάτησε.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/16.mp3"></audio>
+		<audio id="audio16" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/16.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -517,18 +505,17 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Ο Μαγκόζουε καθόταν στην αυλή στο σπίτι με την πράσινη σκεπή, διαβάζοντας ένα βιβλίο με ιστορίες από το σχολείο. Ο Τόμας ήρθε και κάθισε δίπλα του. «Ποιά είναι η ιστορία;» ρώτησε ο Τόμας. «Είναι για ένα αγόρι που γίνεται δάσκαλος» απάντησε ο Μαγκόζουε. «Ποιό είναι το όνομα του αγοριού;» ρώτησε ο Τόμας. «Το όνομα του είναι Μαγκόζουε» είπε ο Μαγκόζουε χαμογελώντας.
 	</h3></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Ο Μαγκόζουε καθόταν στην αυλή στο σπίτι με την πράσινη σκεπή, διαβάζοντας ένα βιβλίο με ιστορίες από το σχολείο. Ο Τόμας ήρθε και κάθισε δίπλα του. «Ποιά είναι η ιστορία;» ρώτησε ο Τόμας. «Είναι για ένα αγόρι που γίνεται δάσκαλος» απάντησε ο Μαγκόζουε. «Ποιό είναι το όνομα του αγοριού;» ρώτησε ο Τόμας. «Το όνομα του είναι Μαγκόζουε» είπε ο Μαγκόζουε χαμογελώντας.
-	</h3></div>
+
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/17.mp3"></audio>
+		<audio id="audio17" src="https://globalstorybooks.net/media/audio/pl/0262/mp3/17.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('πολων.,ελλην.','ελλην.,γαλλ.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+		<button onclick="switchlang('πολων.,ελλην.','ελλην.,πολων.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των πολωνικών και ελληνικών">ελλην.</button>
+
 	</div>
 </div>
 
@@ -537,15 +524,15 @@
 
 <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Κείμενο: Lesley Koyi</h5>
-		<h5>Εικονογράφηση: Wiehan de Jager</h5>
-		<h5>Μετάφραση: Aleksandra Migorska</h5>
-		<h5>Ανάγνωση: Helena Gabriela</h5>
-		<h5>Γλώσσα: <a href="/storybooks-ellada/stories/pl">πολωνικά</a></h5>
-		<h5><a href="/storybooks-ellada/stories/pl/level5">Επίπεδο 5</a></h5>
-		<h5>Πηγή: <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> από το <a href="https://africanstorybook.org/">Βιβλίο Αφρικανών Ιστοριών</a></h5>
+		<h5><span class="colophon-heading">Κείμενο:</span> Lesley Koyi</h5>
+		<h5><span class="colophon-heading">Εικονογράφηση:</span> Wiehan de Jager</h5>
+		<h5><span class="colophon-heading">Μετάφραση:</span> Aleksandra Migorska</h5>
+		<h5><span class="colophon-heading">Ανάγνωση:</span> Helena Gabriela</h5>
+		<h5><span class="colophon-heading">Γλώσσα:</span> <a href="/storybooks-ellada/stories/pl">πολωνικά</a></h5>
+		<h5><span class="colophon-heading">Επίπεδο:</span> <a href="/storybooks-ellada/stories/pl/level5">Επίπεδο 5</a></h5>
+		<h5><span class="colophon-heading">Πηγή:</span> <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> από το <a href="https://africanstorybook.org/">Βιβλίο Αφρικανών Ιστοριών</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Αυτό το εργασία χορηγείται με άδεια <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank">Creative Commons Αναφορά Δημιουργού 4.0</a>.</div>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Αυτό το εργασία χορηγείται με άδεια <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.el" target="_blank">Creative Commons Αναφορά Δημιουργού 4.0 Μη εισαγόμενο</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -555,7 +542,7 @@
 </div>
 <div>
 <h5>Επιλογές</h5>
-	<a class="btn btn-lg" href="/storybooks-ellada/stories/pl" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <a class="btn btn-lg disabled" target="_blank" href="">Λήψη PDF</a>
+	<a class="btn btn-lg" href="/storybooks-ellada/stories/pl" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Λήψη PDF</a></span>
 <br><br>
 </div>
 
