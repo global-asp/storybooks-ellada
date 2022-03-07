@@ -23,9 +23,7 @@
 	<script src="/storybooks-ellada/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div> 
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -65,6 +63,7 @@
 		<option value="/storybooks-ellada/stories/zh/0337">κινέζικα</option>
 		<option value="/storybooks-ellada/stories/ckb/0337">κουρδικά</option>
 		<option value="/storybooks-ellada/stories/hu/0337">ουγγρικά</option>
+		<option value="/storybooks-ellada/stories/uk/0337">ουκρανικά</option>
 		<option value="/storybooks-ellada/stories/ur/0337">ούρντου</option>
 		<option value="/storybooks-ellada/stories/pa/0337">παντζαπικά</option>
 		<option value="/storybooks-ellada/stories/fa/0337">περσικά</option>
@@ -81,16 +80,14 @@
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h1 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl"><span class="def">أَطْفَالُ الشَّمْعِ</span>
+		<h1 dir="rtl"><span class="def">أَطْفَالُ الشَّمْعِ</span>
 			<span dir="ltr" class="l1">Παιδιά από κερί</span>
-			<span dir="ltr" class="l2"></span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/01.mp3"></audio>
 			<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Southern African Folktale</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Wiehan de Jager</h3>
@@ -106,9 +103,9 @@
 
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	فِي يَوْمٍ مِنَ الأَيَّامِ، كَانَتْ هُنَاكَ عَائِلَةٌ سَعِيدَةٌ.
 	</h3></div>
 
@@ -120,12 +117,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/02.mp3"></audio>
+		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -134,7 +130,7 @@
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	لَمْ يَحْدُثْ بَيْنَهُمْ أَيُّ خِلَافٍ قَطُّ. كَانُوا دَائِمًا يُعَاوِنُونَ وَالِدَيْهِمْ فِي الحَقْلِ وَفِي المَنْزِلِ.
 	</h3></div>
 
@@ -146,12 +142,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/03.mp3"></audio>
+		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -160,7 +155,7 @@
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	لَكِنْ لَمْ يُسْمَحْ لَهُمْ بِالاِقْتِرَابِ مِنَ النَّارِ أَبَداً.
 	</h3></div>
 
@@ -172,12 +167,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/04.mp3"></audio>
+		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -186,7 +180,7 @@
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	كَانَ عَلَيْهِمْ القِيَامُ بِكُلِّ مَا لَدَيْهِمْ مِنْ أَعْمَالٍ خِلَالَ اللَّيلِ، لِأَنَّهُمْ مَصْنُوعُونَ مِنَ الشَّمْعِ.
 	</h3></div>
 
@@ -198,12 +192,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/05.mp3"></audio>
+		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -212,7 +205,7 @@
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	وَلَكِنَّ أَحَدَ الأَوْلَادِ كَانَ يَتُوقُ إِلَى الخُرُوجِ فِي ضَوْءِ الشَّمْسِ.
 	</h3></div>
 
@@ -224,12 +217,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/06.mp3"></audio>
+		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -238,7 +230,7 @@
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	وَذَاتَ يَوْمٍ اشْتَدَّتْ رَغْبَتُهُ فِي الخُرُوجِ فِي النَّهَارِ، فَحَذَّرَهُ إِخْوَتُهُ…
 	</h3></div>
 
@@ -250,12 +242,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/07.mp3"></audio>
+		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -264,7 +255,7 @@
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	وَلَكِنْ بَعْدَ فَوَاتِ الأَوَانِ! فَقَدْ ذَابَ فِي الشَّمْسِ الحَارِقَةِ.
 	</h3></div>
 
@@ -276,12 +267,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/08.mp3"></audio>
+		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -290,7 +280,7 @@
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	كَانَ أَطْفَالُ الشَّمْسِ حَزِينِينَ لِلْغَايَةِ لِرُؤْيَةِ أَخِيهِمْ يَذُوبُ.
 	</h3></div>
 
@@ -302,12 +292,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/09.mp3"></audio>
+		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -316,7 +305,7 @@
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	إِلَّا أَنَّهُمْ قَامُوا بِتَشْكِيلِ قِطْعَةِ الشَّمْعِ المُنْصَهِرِ إِلَى طَيْرٍ.
 	</h3></div>
 
@@ -328,12 +317,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/10.mp3"></audio>
+		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/10.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -342,7 +330,7 @@
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	بَعْدَ ذَلِكَ، أَخَذُوا أَخَاهُمْ المُتَشَكِّلَ عَلَى هَيْئَةِ طَيْرٍ إِلَى جَبَلٍ عَالٍ.
 	</h3></div>
 
@@ -354,12 +342,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/11.mp3"></audio>
+		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/11.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -368,7 +355,7 @@
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="rtl">
 	وَمَعَ بُزُوغِ الشَّمْسِ، طَارَ بَعِيداً وَهْوَ يُغَنِّي فِي ضَوْءِ النَّهَارِ.
 	</h3></div>
 
@@ -380,19 +367,19 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/12.mp3"></audio>
+		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/ar/0337/mp3/12.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('αραβ.,ελλην.','ελλην.,αραβ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των αραβικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h5><span class="colophon-heading">Κείμενο:</span> Southern African Folktale</h5>
 		<h5><span class="colophon-heading">Εικονογράφηση:</span> Wiehan de Jager</h5>
@@ -424,7 +411,6 @@
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/ar" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <span class="tooltip tooltip-top" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span>
 <br><br>
 </div>
-
 
 
     </div>

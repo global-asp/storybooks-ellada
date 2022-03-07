@@ -23,9 +23,7 @@
 	<script src="/storybooks-ellada/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div> 
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -65,6 +63,7 @@
 		<option value="/storybooks-ellada/stories/zh/0243">κινέζικα</option>
 		<option value="/storybooks-ellada/stories/ckb/0243">κουρδικά</option>
 		<option value="/storybooks-ellada/stories/hu/0243">ουγγρικά</option>
+		<option value="/storybooks-ellada/stories/uk/0243">ουκρανικά</option>
 		<option value="/storybooks-ellada/stories/ur/0243">ούρντου</option>
 		<option value="/storybooks-ellada/stories/pa/0243">παντζαπικά</option>
 		<option value="/storybooks-ellada/stories/fa/0243">περσικά</option>
@@ -81,16 +80,14 @@
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h1 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl"><span class="def">تعطیلات با مادربزرگ</span>
+		<h1 dir="rtl"><span class="def">تعطیلات با مادربزرگ</span>
 			<span dir="ltr" class="l1">Διακοπές με τη γιαγιά</span>
-			<span dir="ltr" class="l2"></span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/01.mp3"></audio>
 			<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Κείμενο"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/pencil.svg" alt="Κείμενο"></span> Violet Otieno</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Εικονογράφηση"><img class="cover-icon cover-icon-text" src="/storybooks-ellada/css/art.svg" alt="Εικονογράφηση"></span> Catherine Groenewald</h3>
@@ -106,9 +103,9 @@
 
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	ادنگو و آپیو در شهر با پدرشان زندگی می‌کردند آنها برای تعطیلات لحظه شماری می‌کردند. نه فقط به خاطر تعطیل بودن مدرسه، بلکه به خاطر اینکه آنها به ملاقات مادربزرگشان می‌رفتند. او در یک روستای ماهیگیری نزدیک یک دریاچه زندگی می‌کرد.
 	</h3></div>
 
@@ -120,12 +117,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/02.mp3"></audio>
+		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -134,7 +130,7 @@
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	ادنگو و آپیو به خاطر اینکه دوباره زمان ملاقات مادربزرگ رسیده بود هیجان زده بودند. از شب قبل کیف هایشان را بستند وآماده ی سفر طولانی به روستای مادربزرگ شدند. آنها نمی‌توانستند بخوابند وتمام شب درباره ی تعطیلات صحبت کردند.
 	</h3></div>
 
@@ -146,12 +142,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/03.mp3"></audio>
+		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -160,7 +155,7 @@
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	روز بعد، صبح زود آنها با ماشین پدرشان به سمت روستا حرکت کردند. آنها از کنار کوه ها، حیوانات وحشی و مزرعه های چای گذشتند. آنها در راه تعداد ماشین ها را می‌شمردند و آواز می‌خواندند.
 	</h3></div>
 
@@ -172,12 +167,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/04.mp3"></audio>
+		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -186,7 +180,7 @@
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	بعد از مدتی، بچه ها از خستگی خوابشان برد.
 	</h3></div>
 
@@ -198,12 +192,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/05.mp3"></audio>
+		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -212,7 +205,7 @@
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	پدر ادنگو و آپیو را وقتی که به روستا رسیدند صدا زد. آنها نیار-کانیادا، مادربزرگشان را در حالیکه زیر درخت روی حصیر در حال استراحت بود، دیدند. نیار-کانیادا در زبان لو، به معنای - دخترمردم کانیادا- است. او یک زن قوی وزیبا بود.
 	</h3></div>
 
@@ -224,12 +217,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/06.mp3"></audio>
+		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -238,7 +230,7 @@
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	نیار-کانیادا با خوشامد گویی آنها را به خانه دعوت کرد و با خوشحالی شروع به رقصیدن و آواز خواندن دور آنها کرد. نوه هایش هیجان زده بودند که هدیه هایی را که از شهر آورده بودند به او بدهند. ادنگو گفت اول کادوی مرا باز کن. آپیو گفت نه اول کادوی من.
 	</h3></div>
 
@@ -250,12 +242,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/07.mp3"></audio>
+		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -264,7 +255,7 @@
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	وقتی که نیار-کانیادا کادو را باز کرد به روش سنتی از آنها تشکر کرد.
 	</h3></div>
 
@@ -276,12 +267,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/08.mp3"></audio>
+		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -290,7 +280,7 @@
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	سپس ادنگو و آپیو به بیرون رفتند. آنها پروانه ها و پرندگان را دنبال کردند.
 	</h3></div>
 
@@ -302,12 +292,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/09.mp3"></audio>
+		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -316,7 +305,7 @@
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	آنها از درخت ها بالا رفتند و در آب دریاچه آب بازی کردند.
 	</h3></div>
 
@@ -328,12 +317,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/10.mp3"></audio>
+		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/10.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -342,7 +330,7 @@
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	وقتی که هوا تاریک شد آنها برای خوردن شام به خانه برگشتند. قبل از اینکه بتوانند شامشان را تمام کنند، خوابشان برد!
 	</h3></div>
 
@@ -354,12 +342,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/11.mp3"></audio>
+		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/11.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -368,7 +355,7 @@
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	روز بعد، پدر بچه ها به شهر برگشت وآنها را با نیار-کانیادا تنها گذاشت.
 	</h3></div>
 
@@ -380,12 +367,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/12.mp3"></audio>
+		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/12.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -394,7 +380,7 @@
 
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/13.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	ادنگو و آپیو به مادربزرگ در انجام کارهای خانه کمک کردند. آنها آب و هیزم آوردند. آنها تخم مرغ ها را از زیرپای مرغ ها جمع کردند و از باغ سبزی چیدند.
 	</h3></div>
 
@@ -406,12 +392,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/13.mp3"></audio>
+		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/13.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -420,7 +405,7 @@
 
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/14.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	نیار-کانیادا به نوه هایش یاد داد که نان نرم درست کنند که با خورش بخورند. او به آنها نشان داد که چگونه برنج نارگیلی درست کنند که با ماهی کبآبی بخورند.
 	</h3></div>
 
@@ -432,12 +417,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/14.mp3"></audio>
+		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/14.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -446,7 +430,7 @@
 
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/15.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	یک روز ادنگو گاوهای مادربزرگش را برای چریدن بیرون برد. آنها به طرف مزرعه ی همسایه فرار کردند. کشاورز همسایه از ادنگو عصبانی شد و تهدید کرد که گاوها را برای خودش نگه می‌دارد چون گاوها محصولات کشاورزی او را خورده بودند. بعد از آن روز ادنگو حواسش را جمع کرد که گاوها دوباره دردسر درست نکنند.
 	</h3></div>
 
@@ -458,12 +442,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio15" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/15.mp3"></audio>
+		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/15.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -472,7 +455,7 @@
 
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/16.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	یک روز دیگر بچه ها با مادر بزرگ به بازار رفتند. او در آنجا یک غرفه داشت و سبزیجات، شکر و صابون می‌فروخت. آپیو دوست داشت که به مردم قیمت اجناس را بگوید. ادنگو چیزهایی که مشتری ها خریده بودند را در کیسه می‌گذاشت.
 	</h3></div>
 
@@ -484,12 +467,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio16" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/16.mp3"></audio>
+		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/16.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -498,7 +480,7 @@
 
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/17.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	در پایان روز آنها با هم چای می‌نوشیدند. آنها درشمارش پول به مادر بزرگ کمک می‌کردند.
 	</h3></div>
 
@@ -510,12 +492,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio17" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/17.mp3"></audio>
+		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/17.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -524,7 +505,7 @@
 
 <div id="text18" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/18.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	اما تعطیلات خیلی زود تمام شد و بچه ها مجبور شدند که به شهر برگردند. نیار-کانیادا به ادنگو یک کلاه و به آپیو یک ژاکت داد. او برای سفرآنها غذا آماده کرد.
 	</h3></div>
 
@@ -536,12 +517,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio18" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/18.mp3"></audio>
+		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/18.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -550,7 +530,7 @@
 
 <div id="text19" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/19.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	زمانی که پدرشان به دنبال آنها آمد آنها دوست نداشتند که آنجا را ترک کنند. آنها از نیار-کانیادا خواهش کردند که با آنها به شهر بیاید. او لبخند زد و گفت من برای زندگی در شهر زیادی پیر هستم. اما منتظر شما خواهم ماند تا دوباره به روستای من بیایید.
 	</h3></div>
 
@@ -562,12 +542,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text20" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio19" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/19.mp3"></audio>
+		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/19.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -576,7 +555,7 @@
 
 <div id="text20" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/20.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	ادنگو و آپیو هر دو او را محکم در آغوش گرفتند و با او خداحافظی کردند.
 	</h3></div>
 
@@ -588,12 +567,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text19" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#text21" class="btn btn-lg" title="Επόμενη σελίδα"><i class="icon-arrow-down"></i></a>
-		<audio id="audio20" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/20.mp3"></audio>
+		<audio id="audio20" onended="resetbutton('20')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/20.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton20" onclick="playpause('20')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
@@ -602,7 +580,7 @@
 
 <div id="text21" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/21.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl" dir="rtl">
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="rtl">
 	زمانی که ادنگو و آپیو به مدرسه برگشتند برای دوستانشان اززندگی در روستا تعریف کردند. بعضی بچه ها احساس می‌کردند که زندگی در شهر خوب است اما بعضی دیگر فکر می‌کردند که روستا بهتر است. اما از همه مهم تر، همه موافق بودند که ادنگو و آپیو مادربزرگ خیلی خوبی دارند.
 	</h3></div>
 
@@ -614,19 +592,19 @@
 	<div class="btn-group switcher-group">
 		<a href="#text20" class="btn btn-lg" title="Προηγούμενη σελίδα"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Αναγνώριση ιστορίας"><i class="icon-arrow-down"></i></a>
-		<audio id="audio21" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/21.mp3"></audio>
+		<audio id="audio21" onended="resetbutton('21')" src="https://globalstorybooks.net/media/audio/fa/0243/mp3/21.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton21" onclick="playpause('21')" title="Αναπαραγωγή / Παύση"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('περσ.,ελλην.','ελλην.,περσ.')" class="btn btn-lg lang-primary" title="Εναλλαγή μεταξύ των περσικών και ελληνικών">ελλην.</button>
-
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h5><span class="colophon-heading">Κείμενο:</span> Violet Otieno</h5>
 		<h5><span class="colophon-heading">Εικονογράφηση:</span> Catherine Groenewald</h5>
@@ -651,7 +629,6 @@
 	<a class="btn btn-lg" href="/storybooks-ellada/stories/fa" class="button">Επιστροφή στον κατάλογο ιστοριών</a> <span class="tooltip tooltip-top" data-tooltip="Λήψη PDF αυτής της ιστορίας δεν είναι διαθέσιμη."><a class="btn btn-lg disabled">Λήψη PDF</a></span>
 <br><br>
 </div>
-
 
 
     </div>
